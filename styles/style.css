@@ -151,6 +151,9 @@ Media Queries
     .players,.blogs,.courses{
         grid-template-columns: repeat(1,1fr);
     }
+    .course{
+        column-gap: 10px;
+    }
     .player,.blogs{
         flex-direction: column;
     }
