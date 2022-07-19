@@ -3,6 +3,10 @@
 
 
 /* common styles */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -11,6 +15,45 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+nav{
+    width: 870px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between
+
+}
+.navbar{
+    height: 94px;
+    width: 100%;
+    background-color: #562EFF;
+    margin-bottom: 40px;
+}
+.company-details{
+    display: flex;
+    align-items: center;
+}
+.company-details .logo{
+    height: 51px;
+    width: 41px;
+    margin-right: 15px;
+}
+.company-details .name{
+    color: white;
+    font-size: 24px;
+}
+.navigation-items{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    list-style-type: none;
+    font-size: 16px;
+    margin-left: 35px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
 }
 .container{
     background-color: #FFFFFF;
